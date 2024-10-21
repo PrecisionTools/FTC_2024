@@ -1,0 +1,12 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -64 -32 80 32
+WINDOW 0 8 -32 Bottom 2
+SYMATTR Value AD3552R_INL
+SYMATTR Prefix X
+PIN -64 0 LEFT 8
+PINATTR PinName code
+PINATTR SpiceOrder 1
+PIN 80 0 RIGHT 8
+PINATTR PinName INL
+PINATTR SpiceOrder 2
