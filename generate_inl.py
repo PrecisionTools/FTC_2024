@@ -30,4 +30,4 @@ pfile.write('E1 INL 0 code 0 table = ')
 for i in code:
     pfile.write('(%d,%f), ' % (i, INL[i]))
 pfile.write('\n.ends ' + subckt_name + '_INL')
-
+pfile.close()
